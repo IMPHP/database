@@ -1,0 +1,28 @@
+{
+    "name": "imphp/database",
+    "license": "MIT",
+    "description": "Database library that unifies communications with multiple databases",
+    "type": "library",
+
+    "authors": [
+        {
+            "name": "Daniel Bergløv",
+            "email": "d.bergloev@mailbox.com"
+        }
+    ],
+
+    "require": {
+        "imphp/base": "*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "im\\": "src/"
+        }
+    },
+
+    "suggest": {
+        "ext-sqlite3": "Needed in order to use the SQLite3 driver that comes with this library",
+        "ext-mysqli": "Needed in order to use the MySQL driver that comes with this library. Consider using the mysqlnd extension for more optimized performance."
+    }
+}
