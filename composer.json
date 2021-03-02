@@ -12,7 +12,7 @@
     ],
 
     "require": {
-        "imphp/base": "*"
+        "imphp/base": "~1.1"
     },
 
     "autoload": {
