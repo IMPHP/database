@@ -14,6 +14,18 @@ You can view the [Full Documentation](docs/db.md) to lean more.
 
 ### Installation
 
+__Using .phar library__
+
+```sh
+wget https://github.com/IMPHP/database/releases/download/<version>/imphp-database.phar
+```
+
+```php
+require "imphp-database.phar";
+
+...
+```
+
 __Clone via git__
 
 ```sh
